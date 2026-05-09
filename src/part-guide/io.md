@@ -2,7 +2,7 @@
 
 Efficiently handling IO (input/output) is one of the primary motivators for async programming and most async programs do lots of IO. At it's root, the issue with IO is that it takes orders of magnitude more time than computation, therefore just waiting for IO to complete rather than getting on with other work is incredibly inefficient. Ideally, async programming lets a program get on with other work while waiting for IO.
 
-This chapter is an introduction to IO in the async context. We'll cover the important difference between blocking and non-blocking IO, and why blocking IO and async programming don't mix (at least not without a bit of thought and effort). We'll cover how to use non-blocking IO, then look at some of the issues which can crop up with IO and async programming. We'll also look at how the OS handles IO and have a sneak peak at some alternative IO methods like io_uring.
+This chapter is an introduction to IO in the async context. We'll cover the important difference between blocking and non-blocking IO, and why blocking IO and async programming don't mix (at least not without a bit of thought and effort). We'll cover how to use non-blocking IO, then look at some of the issues which can crop up with IO and async programming. We'll also look at how the OS handles IO and have a sneak peek at some alternative IO methods like io_uring.
 
 We'll finish by covering some other ways of blocking an async task (which is bad) and how to properly mix async programming with blocking IO or long-running, CPU-intensive code.
 
