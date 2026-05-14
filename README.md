@@ -10,7 +10,7 @@ The async book is built with [`mdbook`] ([docs](https://rust-lang.github.io/mdBo
 
 ```
 cargo install mdbook
-cargo install mdbook-linkcheck
+cargo install mdbook-linkcheck2
 ```
 
 [`mdbook`]: https://github.com/rust-lang/mdBook

@@ -9,7 +9,7 @@ create-missing = false
 git-repository-url = "https://github.com/rust-lang/async-book"
 site-url = "/async-book/"
 
-[output.linkcheck]
+[output.linkcheck2]
 follow-web-links = true
 traverse-parent-directories = false
 exclude = [ 'blog\.cloudflare\.com' ]
